@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Linq;
 namespace ArrayTest2
 {
     class Program
@@ -14,11 +14,14 @@ namespace ArrayTest2
                 iArr[i] = r.Next(1, 10);                
             }
 
+            int sum = 0;
             foreach(int i in iArr)
             {
+                sum += i;
                 Console.Write(i + " ");
             }
-            Console.WriteLine();
+            Console.WriteLine($"\n배열의 합은 {sum}");
+            Console.WriteLine($"배열의 합은 {iArr.Sum()}");
         }
     }//
 }

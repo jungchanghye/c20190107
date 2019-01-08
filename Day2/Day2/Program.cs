@@ -4,23 +4,15 @@ namespace Day2
 {
     class Emp : object
     {
-        private string name;
-
-        public string Name
+        public string Name //자동구현속성
         {
-            get
-            {
-                return this.name;
-            }
-            set
-            {
-                this.name = value;
-            }
+            get;
+            set;
         }
 
         public override string ToString()
         {
-            return $"[사원]{name}";
+            return $"[사원]{Name}";
         }
     }
 

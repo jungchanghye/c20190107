@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassTest", "PartialClassTest\PartialClassTest.csproj", "{BF4F77C8-1C7C-4214-BC33-FF2DDD0F9529}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF4F77C8-1C7C-4214-BC33-FF2DDD0F9529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4F77C8-1C7C-4214-BC33-FF2DDD0F9529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4F77C8-1C7C-4214-BC33-FF2DDD0F9529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4F77C8-1C7C-4214-BC33-FF2DDD0F9529}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F4E8533-610F-45E4-8984-2DF3F7BAAB1D}
+	EndGlobalSection
+EndGlobal

@@ -7,7 +7,7 @@ namespace LambdaTest
 {
     class Program
     {
-        static bool MyWhere(int n) { return n % 2 == 1; }
+        //static bool MyWhere(int n) { return n % 2 == 1; }
         static void Main(string[] args)
         {
             int[] scores = { 30, 54, 64, 54, 99, 11 };

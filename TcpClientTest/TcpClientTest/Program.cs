@@ -12,7 +12,7 @@ class TcpClientTest
         {
             //LocalHost에 지정 포트로 TCP Connection을 생성하고 데이터를 송수신 하기위한 스트림을 얻는다.
              client = new TcpClient();
-            client.Connect("192.168.0.217", 5001);
+            client.Connect("192.168.0.35", 5001);
             NetworkStream stream = client.GetStream();
             Encoding encode = Encoding.GetEncoding("utf-8");
             StreamReader reader = new StreamReader(stream, encode);

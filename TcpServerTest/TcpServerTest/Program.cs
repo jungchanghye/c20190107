@@ -14,7 +14,7 @@ class Server
         StreamReader reader = null;
         StreamWriter writer = null;
         try
-        {
+        { 
             //IP주소를 나타내는 객체를 생성,TcpListener를 생성시 인자로 사용할려고
             IPAddress ipAd = IPAddress.Parse("192.168.0.217");
             //TcpListener Class를 이용하여 클라이언트의 연결을 받아 들인다.
